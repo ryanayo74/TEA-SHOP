@@ -93,8 +93,13 @@ img{
 footer{
     font-size: 14px;
 }
-p1   {
+
+p1:hover   {
+    text-align: left;
     color: white;
+    cursor: pointer;
+    transition: all 0.8s;
+	   
 }
 
 a:link {
