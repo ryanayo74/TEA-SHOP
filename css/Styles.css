@@ -7,6 +7,18 @@ body{
     padding: 20px;
 }
 
+
+.Logout{
+    text-align: right;
+    padding: 8px;
+    font-family:serif
+}
+
+.Logout a:hover{
+  transition: 1.0s;
+}
+
+
 h1, h2, p{
     text-align:center;
 }
@@ -41,11 +53,10 @@ h2{
 .tea-menu{
     width: 80%;
     max-width: 500px;
-    background-color: rgba(228, 202, 168, 0.404);
-    
+    background-color: rgba(199, 182, 144, 0.329);
+    border-radius: 8%;
     margin-left:auto;
     margin-right: auto;
-    
     padding: 20px;
 }
 
@@ -54,7 +65,7 @@ h2{
 }
 
 
-.tea-icon{
+.coffee-icon{
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -90,17 +101,11 @@ img{
     text-align: right;
 }
 
-footer{
+.footer p:hover{
     font-size: 14px;
+    transition: all 0.8;
 }
 
-p1:hover   {
-    text-align: left;
-    color: white;
-    cursor: pointer;
-    transition: all 0.8s;
-	   
-}
 
 a:link {
     color: black;
